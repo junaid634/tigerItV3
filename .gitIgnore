@@ -1,0 +1,15 @@
+.env
+Dist/
+node_modules
+node_modules/
+Dist
+.env
+node_modules/
+orders.json
+dummyData.json
+Dist/
+/Dist
+
+/temp
+.idea
+# package-lock.json

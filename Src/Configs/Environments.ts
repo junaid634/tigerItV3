@@ -1,0 +1,41 @@
+import * as dotenv from 'dotenv'
+dotenv.config()
+
+const environments = {
+	ENV: process.env.ENV ?? 'prod',
+	PORT: process.env.PORT ?? 3000,
+	adminAccountId: process.env.ADMIN_ACCOUNT_ID ?? '',
+	SQUARE_ACCESS_TOKEN: process.env.SQUARE_ACCESS_TOKEN ?? '',
+	discordWebHook: process.env.DISCORD_WEB_HOOK ?? '',
+	applicationStatus: process.env.APPLICATION_STATUS ?? 'dev',
+	CloudApiKey: process.env.CloudApiKey ?? '',
+	CloudApiSecret: process.env.CloudApiSecret ?? '',
+	CloudName: process.env.CloudName ?? '',
+	googleClientId: process.env.googleClientId ?? '',
+	JWT_EXPIRESIN: process.env.JWT_EXPIRESIN ?? '',
+	JWT_SECRET: process.env.JWT_SECRET ?? '',
+	mail: process.env.mail ?? '',
+	mailPassword: process.env.mailPassword ?? '',
+	GEOCODE_API_KEY: process.env.GEOCODE_API_KEY ?? '',
+	accountSid: process.env.accountSid ?? '',
+	authToken: process.env.authToken ?? '',
+	mongo_URL: process.env.mongo_URL ?? '',
+	FIREBASEapiKey: process.env.FIREBASEapiKey ?? '',
+	FIREBASEauthDomain: process.env.FIREBASEauthDomain ?? '',
+	FIREBASEdatabaseURL: process.env.FIREBASEdatabaseURL ?? '',
+	FIREBASEprojectId: process.env.FIREBASEprojectId ?? '',
+	FIREBASEstorageBucket: process.env.FIREBASEstorageBucket ?? '',
+	FIREBASEmessagingSenderId: process.env.FIREBASEmessagingSenderId ?? '',
+	FIREBASEAPPID: process.env.FIREBASEAPPID ?? '',
+	FIREBASEMEASUREID: process.env.FIREBASEMEASUREID ?? '',
+	FCM_SERVER_KEY: process.env.FCM_SERVER_KEY ?? '',
+	SMSALA_PASS: process.env.SMSALA_PASS ?? '',
+	SMSALA_API: process.env.SMSALA_API ?? '',
+	SMSALA_SENDERID: process.env.SMSALA_SENDERID ?? '',
+	DELIVERY_FEE_IN_USD: process.env.DELIVERY_FEE_IN_USD ?? 1,
+	PLATFORM_FEE_IN_USD: process.env.PLATFORM_FEE_IN_USD ?? 0.5,
+	IP_INFO_KEY: process.env.IP_INFO_KEY ?? '',
+	CURRENCY_COVERTER_KEY: process.env.CURRENCY_COVERTER_KEY ?? '',
+}
+
+export default environments
