@@ -36,6 +36,8 @@ const environments = {
 	PLATFORM_FEE_IN_USD: process.env.PLATFORM_FEE_IN_USD ?? 0.5,
 	IP_INFO_KEY: process.env.IP_INFO_KEY ?? '',
 	CURRENCY_COVERTER_KEY: process.env.CURRENCY_COVERTER_KEY ?? '',
+	FirebasePrivateKey: process.env.FirebasePrivateKey
+	FirebaseClientEmail: process.env.FirebaseClientEmail
 }
 
 export default environments
